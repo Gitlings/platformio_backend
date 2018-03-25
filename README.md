@@ -37,7 +37,7 @@ Depending on the `"objectType"` there are other required properties:
 - `"circle"` requires `"radius": 1`
 
 
-### Contributing to the progect
+### Contributing to the project
 Before committing anything do the following:
 - Install `rubocop` and `overcommit` gems
 - Run `$ overcommit --install`
