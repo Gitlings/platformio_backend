@@ -1,3 +1,4 @@
 require_relative 'platformio'
 
-Rack::Handler::Thin.run Platformio.new
+Faye::WebSocket.load_adapter('thin')
+Rack::Handler::Thin.run Platformio.new, Port: 9292
